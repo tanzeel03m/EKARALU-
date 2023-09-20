@@ -1,0 +1,424 @@
+.header{
+    padding:10px;
+    text-align: center;
+    background-color: #1c9c29;
+    color: rgba(255, 255, 255, 0.697);
+}
+.container{
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+}
+
+.header h1{
+    font-size: 80px;
+    color:white ;
+
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+
+}
+.nav-bar a:hover{
+    background-color: #555;
+
+}
+.nav-bar .right{
+    float: right;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.search-bar input {
+    width: 10%;
+    padding: 10px;
+    border: none;
+
+
+}
+.search-option button{
+    width: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: white;
+}
+
+.column {
+    float: left;
+    width: 33.55%;
+    padding: 10px;
+  
+
+  }
+  
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.55%;
+    padding: 10px;
+  }
+  .icon-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+  }
+  .icon-item{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .icon-item i{
+    font-size: 50px;
+    color: #1abc9c;
+  }
+  .icon-item p{
+    text-align: center;
+
+  }
+  .message{
+    width: 50%;
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(103, 4, 4);
+
+  }
+  .form{
+    width: 50%;
+    padding: 20px;
+    float: right;
+  }
+  
+  .form-group{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    float: center;
+    
+  }
+  .form-group label{
+    display: inline;
+    width: 100%;
+    padding: auto;
+  }
+  .form-group input{
+    width: 100%;
+    padding: 10px;
+  }
+  .form button{
+    display:block;
+    width: 100px;
+    margin: auto;
+    padding: 10px;
+    border:none;
+    background-color: #1abc9c;
+  }
+  .container{
+    display: flex;
+    
+  }
+  .image{
+    width: 33%;
+    
+    float: left;
+    
+    
+  }
+  .image img{
+    width: 100%;
+    height: auto;
+    float: right;
+    display: flex;
+  }
+  .content{
+    width: 50%;
+    padding: 20px;
+    float: right;
+
+  }
+  .content h1{
+    font-size: 30px;
+
+
+  }
+  .content p{
+    font-size: 20px;
+
+  }
+  .content button{
+    display: block;
+    width: 150px;
+    margin: auto;
+    padding: 10px;
+    border: none;
+    background-color: #1abc9c;
+  }
+  .banner {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  .icones {
+    display: flex;
+  }
+  
+  .icones img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+  }
+  .service{
+    text-align: center;
+  }
+  
+  .service p {
+    font-size: 14px;
+    color: black;
+    opacity: 0.8;
+  }
+  h1{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(3, 86, 14);
+    text-align: center;
+  }
+  .blog-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .blog-header {
+    text-align: center;
+  }
+  
+  .blog-header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .blog-header p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .blog-articles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .blog-article {
+    width: 30%;
+  }
+  
+  .blog-article img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .blog-article h2 {
+    font-size: 24px;
+    font-weight: normal;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  .blog-article p.date {
+    font-size: 14px;
+    color: #999;
+    margin-top: 5px;
+  }
+  .testimonial-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .testimonial-header {
+    text-align: center;
+  }
+  
+  .testimonial-header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .testimonial-slideshow {
+    display: flex;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+  
+  .testimonial-slide {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .testimonial-slide img {
+    width: 25%;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .testimonial-info {
+    width: 75%;
+    padding: 20px;
+  }
+  
+  .testimonial-info p.name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .testimonial-info p.quote {
+    font-size: 18px;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  .testimonial-info p.date {
+    font-size: 14px;
+    color: #999;
+    margin-top: 5px;
+  }
+  
+  .testimonial-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .testimonial-controls button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .testimonial-controls button:hover {
+    background-color: #444;
+  }
+  .footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .column {
+    width: 25%;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  
+  .logo {
+    margin-bottom: 10px;
+  }
+  
+  .logo img {
+    width: 150px;
+  }
+  
+  .contact p {
+    margin: 5px 0;
+  }
+  
+  .contact i {
+    color: green;
+    margin-right: 10px;
+  }
+  
+  .explore, .links, .whatsapp, .social {
+    margin-top: 20px;
+  }
+  
+  .explore h4, .links h4, .whatsapp h4, .social h4 {
+    color: green;
+    margin-bottom: 10px;
+  }
+  
+  .explore ul, .links ul, .social ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .explore li, .links li, .social li {
+    margin: 5px 0;
+  }
+  
+  .explore a, .links a, .social a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .explore a:hover, .links a:hover, .social a:hover {
+    color: green;
+  }
+  
+  .whatsapp p {
+    margin: 5px 0;
+  }
+  
+  .whatsapp i {
+    color: green;
+    margin-right: 10px;
+  }
+  
+  .social ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .social i {
+    font-size: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  
+
